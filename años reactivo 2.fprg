@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="a&#241;os reactivo 2"/>
+        <attribute name="authors" value="Adrian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-25 06:24:35 "/>
+        <attribute name="created" value="QWRyaWFuO0xBUFRPUC1ERUVNRkIxNDsyMDI1LTAzLTI1OyIwNTo0NzozNSAiOzI4MTg="/>
+        <attribute name="edited" value="QWRyaWFuO0xBUFRPUC1ERUVNRkIxNDsyMDI1LTAzLTI1OyIwNjoyNDozNSAiOzE7MjkyMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n%4==0">
+                <then/>
+                <else/>
+            </if>
+            <if expression="n%400==0">
+                <then>
+                    <output expression="&quot;a&#241;o bisiesto&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n%100==0">
+                        <then/>
+                        <else/>
+                    </if>
+                    <output expression="&quot;no bisiesto&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
